@@ -1,0 +1,57 @@
+{
+  "name": "geom3",
+  "version": "0.0.1-alpha",
+  "description": "A JavaScript Computational Library for 3D Modeling",
+  "main": "lib/geom3.min.js",
+  "dependencies": {
+    "gl-matrix": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-jest": "^13.2.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-plugin-transform-es2015-object-super": "^6.8.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "clean-webpack-plugin": "^0.1.9",
+    "eslint": "^3.0.1",
+    "eslint-loader": "^1.4.1",
+    "defined": "^1.0.0",
+    "tape": "^4.6.2",
+    "webpack": "^1.13.3",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.2"
+  },
+  "scripts": {
+    "dev": "webpack",
+    "build": "webpack"
+  },
+  "author": "Yuanyuan Ryan Zhang",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitsnomagic/Geom3.git"
+  },
+  "keywords": [
+    "Geometry",
+    "Computational",
+    "WebGL",
+    "Vector",
+    "Matrix",
+    "Transformation"
+  ],
+  "bugs": {
+    "url": "https://github.com/bitsnomagic/Geom3/issues"
+  },
+  "homepage": "https://github.com/bitsnomagic/Geom3#readme"
+}
